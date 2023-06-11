@@ -1,0 +1,14 @@
+body {
+    padding-left: 660px;
+    padding-top: 300px;
+}
+
+#campo1, #campo2 {
+    border-radius: 5px;
+    height: 80px;
+    width: 80px;
+    margin: 0px 20px 20px 0px;
+    font-size: 30px;
+}
+
+
