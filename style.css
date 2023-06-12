@@ -1,7 +1,26 @@
+
 body {
-    /*deixar em porcentagem faz com que fique responsivo a qualquer tamanho de tela*/
-    padding-left: 45%;
-    padding-top: 20%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+      
+#container {
+    width: 300px; /* Define a largura desejada para o conteúdo */
+    border: 5px double brown;
+    padding: 20px;
+}
+    
+
+
+/*terá uma margem de 20px por padrão, mas quando a largura da tela for menor ou igual a 768px, a margem será ajustada para 10px.*/
+@media (max-width: 768px) {
+    .body {
+      margin: 10px;
+    }
 }
 
 #campo1, #campo2 {
@@ -10,6 +29,30 @@ body {
     width: 80px;
     margin: auto;
     font-size: 30px;
+}
+
+#operacao {
+    border-radius: 5px;
+    border: 2px solid brown;
+    font-size: 18px;
+    margin:auto;
+    margin-top: 20px;
+}
+
+#texto {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#resposta {
+    text-align: right;
+    margin-top: 0;
+    font-size: 34px;
+    color:brown;
+    /*aqui eu determino que a borda será do tamanho do conteúdo*/
+    display: inline-block;
+    border: 2px dashed black;
+    padding: 10px;
 }
 
 

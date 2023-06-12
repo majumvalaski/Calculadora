@@ -10,18 +10,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <input id="campo1" type="text">
-    <input id="campo2" type="text">
-    <select id="operacao">
-        <option>somar</option>
-        <option>subtrair</option>
-        <option>multiplicar</option>
-        <option>dividir</option>
-    </select>
-    
-    <br>
-    Resposta: <div id="resposta"></div>
-
+    <div id="container">
+        <input id="campo1" type="text">
+        <input id="campo2" type="text">
+        <select id="operacao">
+            <option>somar</option>
+            <option>subtrair</option>
+            <option>multiplicar</option>
+            <option>dividir</option>
+        </select>
+        
+        <br>
+        <div id="texto">Resposta:</div> 
+        <br>
+        <div id="resposta"></div>
+    </div>    
     <script src="responsive.js"></script>
 </body>
 </html>

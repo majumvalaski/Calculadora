@@ -12,7 +12,7 @@ function calcular(){
         resposta.innerHTML ="Campo Vazio";
         setTimeout(()=>{
             resposta.innerHTML='';
-        },3000); //o tempo depois que a mensagem some (3000ms = 3s)
+        },5000); //o tempo depois que a mensagem some (5000ms = 5s)
     }
     else{
         const valor1 = parseInt(campo1.value);
