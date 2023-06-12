@@ -26,8 +26,10 @@ body {
 #campo1, #campo2 {
     border-radius: 5px;
     height: 80px;
-    width: 80px;
+    width: 100%;
     font-size: 30px;
+    display: inline-block;
+    margin-bottom:10px;
 }
 
 #operacao {
