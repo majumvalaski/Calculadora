@@ -18,7 +18,7 @@ body {
 
 /*terá uma margem de 20px por padrão, mas quando a largura da tela for menor ou igual a 768px, a margem será ajustada para 10px.*/
 @media (max-width: 768px) {
-    .body {
+    body {
       margin: 10px;
     }
 }
@@ -27,7 +27,6 @@ body {
     border-radius: 5px;
     height: 80px;
     width: 80px;
-    margin: auto;
     font-size: 30px;
 }
 
@@ -35,7 +34,6 @@ body {
     border-radius: 5px;
     border: 2px solid brown;
     font-size: 18px;
-    margin:auto;
     margin-top: 20px;
 }
 
