@@ -1,5 +1,5 @@
 # CALCULADORA
-
+# Deploy - https://64948a9739396b00863987b3--joyful-zuccutto-0b716d.netlify.app/
 # Objetivo:
 O objetivo desse projeto é construir uma calculadora onde o usuário preenche os campos com os valores desejados e seleciona qual a operação desejada.
 O usuário ve a resposta em tempo que digita os números.
